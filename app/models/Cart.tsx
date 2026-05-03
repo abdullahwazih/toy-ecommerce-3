@@ -1,0 +1,3 @@
+type Cart = {
+    items: CartItem[];
+};
