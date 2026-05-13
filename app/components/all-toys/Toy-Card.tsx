@@ -36,7 +36,7 @@ export default function ToyCard({ toy }: { toy: Toy }) {
 
                 {/* View Details */}
                 <Link
-                    href={`/all-toys/${toy._id}`}
+                    href={`/all-toys-2/${toy._id}`}
                     className="flex-1"
                 >
                     <button className="btn btn-sm btn-outline w-full">

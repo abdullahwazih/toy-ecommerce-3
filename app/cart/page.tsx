@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import API from "@/app/lib/api";
 
 // Types
-import type { Product } from "@/app/models/Cart-Product";
+// import type { Product } from "@/app/models/Cart-Product";
 import type { CartItem } from "@/app/models/Cart-Item";
 import type { Cart } from "@/app/models/Cart";
 

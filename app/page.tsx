@@ -1,3 +1,4 @@
+import AllToysPage2 from "./(customer)/all-toys-2/page";
 import Hero from "./components/home/Hero";
 import PopularCategories from "./components/home/Popular_Categories";
 
@@ -6,6 +7,8 @@ export default function Page() {
     <>
       <Hero />
       <PopularCategories /> 
+
+      {/* <AllToysPage2 /> */}
     </>
   );
 }

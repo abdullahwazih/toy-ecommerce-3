@@ -208,6 +208,7 @@ export default function ToyDetailsPage() {
   }
 
   const ratingRounded = Math.round(toy.rating);
+  
   const isActionDisabled =
     cartStatus === "loading" || cartStatus === "unauth";
 
@@ -333,7 +334,7 @@ export default function ToyDetailsPage() {
                 {toy.description}
               </p>
             </div>
-
+                  
             {/* PRICE */}
             <div className="border-t border-gray-100 pt-5">
               <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">

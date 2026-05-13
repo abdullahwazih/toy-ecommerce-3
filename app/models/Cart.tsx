@@ -1,3 +1,3 @@
-type Cart = {
+export type Cart = {
     items: CartItem[];
 };
